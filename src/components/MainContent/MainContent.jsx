@@ -9,8 +9,12 @@ function MainContent() {
             <div className={styles.mainText}>
                 <h1>LIFE IS WASTED ON THE LIVING</h1>
             </div>
+        
             <a href="#" className={styles.sign_up}>
-                Sign in with
+             Sign in
+            </a>
+            <a href="#" className={styles.sign_up}>
+            with
             </a>
             <div className={styles.form_container}>
             <form className={styles.form_buttons}>
