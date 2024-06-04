@@ -1,0 +1,22 @@
+
+.container {
+    display: flex;
+    padding: 35px 55px;
+    background-color: #000; 
+}
+
+.logo img {
+    width: 139.56px;
+    height: 44.36px;
+    
+}
+
+ .logo:hover{
+background-color: rgb(9, 228, 228);
+box-shadow: rgb(121, 121, 244);
+border-radius:8px ;
+}
+.logo:active{
+    transform:  translateY(-5px);
+    transform: scale(1.1);
+}
