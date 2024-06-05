@@ -92,9 +92,11 @@ button {
 button:hover {
     background-color:rgba(17, 129, 241, 1);
     transform: scale(1.1);
-    box-shadow: 
-    rgba(65, 115, 166, 0.15);
+    box-shadow: 0 4px 8px rgba(65, 115, 166, 0.15);
+
 }
 button:active{
-    transform:  translateY(-5px);
+    transform:  translateY(-10px);
+ 
+   
 }
