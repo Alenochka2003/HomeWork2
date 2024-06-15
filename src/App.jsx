@@ -1,13 +1,18 @@
-import styles from './App.module.css';
-import Header from './components/Header/Header';
-import MainContent from './components/MainContent/MainContent';
-function App() {
+import React from 'react';
+import './App.module.css';
+import { LanguageProvider } from './components/LanguageContext';
+import LanguageSwitcher from './components/LanguageSwitcher';
+import Text from './components/Text';
+
+const App = () => {
   return (
-    <div className={styles.app}>
-     <Header/>
-    <MainContent/>
-    </div>
+    <LanguageProvider>
+      <div className="App">
+        <Text />
+        <LanguageSwitcher />
+      </div>
+    </LanguageProvider>
   );
-}
+};
 
 export default App;
