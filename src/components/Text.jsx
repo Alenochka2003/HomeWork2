@@ -13,7 +13,7 @@ const Text = () => {
       message = 'Выбран русский язык';
       break;
     case 'zh':
-      message = '选择了中文';
+      message = '选择了中文';  
       break;
     case 'fr':
       message = 'La langue française a été choisie';
